@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    
+</head>
+<body onload="message()">
+    <header>
+        <h1>Automating Control Center</h1>
+        <h2>TCS and PG&E - Control Center, Electrical Distribution Systems</h2>
+    </header>
+    <table id="buttons">
+        <tr>
+            <td class="definition">Automating Smoke Tests: v1.0</td>
+            <td class="button" onclick="load_page_1()" onmouseenter="page1()" onmouseleave="restore()"><img src='right arrow.png'></td>
+        </tr>
+        <tr>
+            <td class="definition">Automating Smoke Tests: v2.0</td>
+            <td class="button" onclick="load_page_2()" onmouseenter="page2()" onmouseleave="restore()"><img src='right arrow.png'></td>
+        </tr>
+        <tr>
+            <td class="definition">Ticket Tracker: v1.0</td>
+            <td class="button" onclick="load_page_3()" onmouseenter="page3()" onmouseleave="restore()"><img src='right arrow.png'></td>
+        </tr>
+        <tr>
+            <td class="definition">DMS Circuit Capabilities: v1.0</td>
+            <td class="button" onclick="load_page_4()" onmouseenter="page4()" onmouseleave="restore()"><img src='right arrow.png'></td>
+        </tr>
+    </table>
+    <div id="description">
+    </div>
+    <footer>
+        <marquee>This Dashboard is aimed to spearhead the innovation required to aid the Control Center Management</marquee>
+    </footer>
+</body>
+</html>
